@@ -1,5 +1,7 @@
 /* header section */
 
+ /* top-banner section */
+
 .container{
     width: 85%;
 }
@@ -9,14 +11,14 @@
     background-color: rgb(70, 70, 70);
     margin-bottom: 50px;
 }
+.banner-both{
+    width: 50%;
+    padding: 4%;
+}
 h1{
     font-size: 50px;
     color: white; 
      
-}
-.banner-both{
-    width: 50%;
-    padding: 4%;
 }
 .banner p{
     color: white;
@@ -26,8 +28,9 @@ h1{
     height: 100%;
 }
 
-/* menu */
-.full{
+/* menu section */
+
+.full-menu{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 15px;
@@ -56,7 +59,8 @@ h1{
     color: white;
 }
 
-/* transfar */
+
+ /* Transfar section */
 .transfer{
     display: grid;
     grid-template-columns: 1fr repeat(2,1fr);
@@ -80,7 +84,7 @@ font-weight: 700;
     font-weight: 100;
 }
 
-/* footer  */
+/* footer  section */
 footer{
     background-color: rgb(66, 66, 66);
 }
@@ -94,7 +98,7 @@ footer{
 .policies{
     margin-top: 45px;
 }
-.pol{
+.info{
     text-decoration: none;
     color: white;
     padding: 16px;
