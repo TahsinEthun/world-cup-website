@@ -1,22 +1,19 @@
 /* header section */
-.head{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container{
-    display: flex;
-    border-radius: 20px;
-    width: 75%;
-    margin-bottom: 50px;     
-    background-color: rgb(70, 70, 70);
-}
 
-h1{
-    font-size: 50px;
-    color: white;
+.container{
+    width: 85%;
 }
 .banner{
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(70, 70, 70);
+    margin-bottom: 50px;
+}
+h1{
+    font-size: 50px;
+     color: white; 
+}
+.banner-both{
     width: 50%;
     padding: 4%;
 }
@@ -25,26 +22,67 @@ h1{
 }
 .banner-img img{
     width: 100%;
+    height: 100%;
 }
 
 /* menu */
-
+.full{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+}
+.menu-container{
+  border: 2px solid;
+  width: 300px;
+  background-color: black;
+  height: 250px;
+}
 .menu{
-    background-color: blue;
-    width: 20%;
+    display: flex;
+    flex-direction: column;
 }
-.menu-text{
-    padding: 15px 15px;
-    margin: 10px 0px;
+.menu-button{
+    margin: 19px 7px;
+    padding: 11px 4px;
+    border-radius: 10px;
+    border-radius: 4px;
+}
+
+
+/* transfar */
+.transfer{
+    display: grid;
+    grid-template-columns: 1fr repeat(2,1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.article{
+    border-radius: 5px;
+    background-color: whitesmoke;
 }
 
 
 
 
 
-
-
-
+/* footer  */
+footer{
+    background-color: rgb(66, 66, 66);
+}
+.footer{
+    text-align: center;
+}
+.footer h1{
+    padding-top: 120px;
+}
+.policies{
+    margin-top: 45px;
+}
+.pol{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
 
 
 
@@ -67,4 +105,8 @@ font-family: 'Poppins', sans-serif;
     background-color: red;
     color: white;
     border: none;
+}
+main{
+    display: flex;
+    justify-content: center;
 }
