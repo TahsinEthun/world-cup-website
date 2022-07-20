@@ -1,0 +1,70 @@
+/* header section */
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    border-radius: 20px;
+    width: 75%;
+    margin-bottom: 50px;     
+    background-color: rgb(70, 70, 70);
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+.banner{
+    width: 50%;
+    padding: 4%;
+}
+.banner p{
+    color: white;
+}
+.banner-img img{
+    width: 100%;
+}
+
+/* menu */
+
+.menu{
+    background-color: blue;
+    width: 20%;
+}
+.menu-text{
+    padding: 15px 15px;
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* utility classes */
+body{
+  font-family: 'Courgette', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.btn{
+    padding: 14px 40px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    border: none;
+}
