@@ -73,8 +73,11 @@ font-weight: 700;
 }
 .transfer-button{
     padding: 7px 15px;
-    border-radius: 5px;
-    
+    border-radius: 5px;   
+}
+.icons{
+    margin-right: 10px;
+    font-weight: 100;
 }
 
 
