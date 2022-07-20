@@ -11,7 +11,8 @@
 }
 h1{
     font-size: 50px;
-     color: white; 
+    color: white; 
+     
 }
 .banner-both{
     width: 50%;
@@ -30,24 +31,30 @@ h1{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 15px;
+    margin-bottom: 70px;
 }
 .menu-container{
   border: 2px solid;
   width: 300px;
   background-color: black;
-  height: 250px;
+  height: 282px;
+  border-radius: 12px;
 }
 .menu{
     display: flex;
     flex-direction: column;
 }
 .menu-button{
-    margin: 19px 7px;
-    padding: 11px 4px;
-    border-radius: 10px;
-    border-radius: 4px;
+        margin: 16px 32px;
+        padding: 16px 30px;
+        border-radius: 13px;
+        font-weight:600;
+        font-size: 21px;
 }
-
+#Blog{
+    background-color: red;
+    color: white;
+}
 
 /* transfar */
 .transfer{
@@ -62,10 +69,12 @@ h1{
 }
 .transfer-text{
 margin: 9px 20px;
+font-weight: 700;
 }
 .transfer-button{
     padding: 7px 15px;
     border-radius: 5px;
+    
 }
 
 
@@ -78,6 +87,7 @@ footer{
 }
 .footer{
     text-align: center;
+    height: 100%;
 }
 .footer h1{
     padding-top: 120px;
@@ -112,8 +122,12 @@ font-family: 'Poppins', sans-serif;
     background-color: red;
     color: white;
     border: none;
+    font-weight: 700;
 }
 main{
     display: flex;
     justify-content: center;
+}
+hr{
+    margin: 2px 50px;
 }
