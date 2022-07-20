@@ -60,6 +60,13 @@ h1{
     border-radius: 5px;
     background-color: whitesmoke;
 }
+.transfer-text{
+margin: 9px 20px;
+}
+.transfer-button{
+    padding: 7px 15px;
+    border-radius: 5px;
+}
 
 
 
