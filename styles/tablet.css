@@ -1,0 +1,35 @@
+@media only screen and (min-width:689px) and (max-width:992px){
+    .full{
+        display: flex;
+        flex-direction: column;
+       
+        border: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu-container{
+        width: 100%;
+        background-color: white;
+        border: none;
+        margin-bottom: -15%;
+    }
+    .menu-button{
+        width: 31%;
+    }
+    .transfer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .article{
+        margin-top: 2%;
+       }
+       .policies{
+        margin-right: 15%;
+        margin-left: 15%;
+   }
+   .pol{
+    margin-top: 4%;
+   }
+}
