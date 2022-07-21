@@ -61,6 +61,71 @@ h1{
 
 
  /* Transfar section */
+ /* top-banner section */
+
+ .container{
+    width: 85%;
+}
+.banner{
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(70, 70, 70);
+    margin-bottom: 50px;
+}
+.banner-both{
+    width: 50%;
+    padding: 4%;
+}
+h1{
+    font-size: 50px;
+    color: white; 
+     
+}
+.banner p{
+    color: white;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* menu section */
+
+.full-menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+    margin-bottom: 70px;
+}
+.menu-container{
+  border: 2px solid;
+  width: 300px;
+  background-color: black;
+  height: 282px;
+  border-radius: 12px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu-button{
+        margin: 16px 32px;
+        padding: 16px 30px;
+        border-radius: 13px;
+        font-weight:600;
+        font-size: 21px;
+}
+#upcoming{
+    text-decoration: none;
+    color: black;
+}
+#Blog{
+    background-color: red;
+    color: white;
+}
+
+
+ /* Transfar section */
 .transfer{
     display: grid;
     grid-template-columns: 1fr repeat(2,1fr);
@@ -134,3 +199,4 @@ main{
 hr{
     margin: 2px 50px;
 }
+
